@@ -537,6 +537,11 @@ margin-top: 10px;
 .page-footer-list li {
     margin-bottom: 9px;
 }
+
+.page-footer-list li:first-child {
+    margin-top: 20px;
+}
+
 .page-footer-list li:last-child{
     margin-bottom: 0px;
 }
@@ -581,7 +586,6 @@ margin-top: 10px;
 
 .footer-icon-list  {
     display: flex;
-    margin-right: 93px;
 }
 
 .footer-icon-title {
@@ -631,7 +635,8 @@ margin-top: 10px;
 }
 
 .footer-icon-div {
-    padding-left: 70px;
+    margin-left: 70px;
+    margin-right: 93px;
 }
 
 .footer-form-title {
@@ -685,6 +690,18 @@ padding-right: 28px;
 .footer-form-svg {
     margin-left: 10px;
 }
+
+.logo-foot {
+    font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+        text-decoration: none;
+        
+}
+
 
 /*Bозможности*/
 
@@ -890,7 +907,7 @@ padding-right: 28px;
 .modal-title {
     font-weight: 700;
     font-size: 20px;
-    line-height: 23px;
+    line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -911,7 +928,10 @@ padding-right: 28px;
 
 .modal-field {
 margin-bottom: 10px;
-    margin-top: 4px;
+}
+
+.modal-field:first-child {
+    margin-top: 0px;
 }
 
 .modal-input:focus+ .modal-icon {
@@ -929,7 +949,7 @@ margin-bottom: 10px;
 .modal-label {
     font-weight: 400;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 1.17;
     letter-spacing: 0.01em;
     color: #757575;
     
@@ -954,6 +974,7 @@ margin-bottom: 10px;
     margin-top: 4px;
         border-radius: 4px;
         outline: none;
+        margin-bottom: 20px;
 }
 
 
@@ -986,9 +1007,8 @@ font-weight: 400;
         color: #757575;
         display: flex;
         align-items: center;
-        margin-top: 20px;
-        margin-bottom: 30px;
         padding-left: 13px;
+        margin-bottom: 30px;
 }
 .input-checkbox-text::before {
 content: '';
