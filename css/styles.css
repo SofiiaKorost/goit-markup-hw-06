@@ -975,6 +975,7 @@ margin-bottom: 10px;
     margin-top: 4px;
         border-radius: 4px;
         outline: none;
+        display: block;
         
 }
 
